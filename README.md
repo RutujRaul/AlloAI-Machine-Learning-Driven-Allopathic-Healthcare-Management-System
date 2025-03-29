@@ -16,6 +16,7 @@ AlloAI is a comprehensive Allopathic Healthcare Management System that provides 
 5. Easy Navigation: Two main options on the interface:
     
     a. Enter Healthcare Management System: Powered by a trained ML model.
+   
     b. Enter Patients Management System: CRUD operations for patient records.
 --- 
 
