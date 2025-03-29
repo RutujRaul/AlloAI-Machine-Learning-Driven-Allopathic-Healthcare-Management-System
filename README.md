@@ -32,8 +32,8 @@ cd AlloAI-Machine-Learning-Driven-Allopathic-Healthcare-Management-System
 For Python (Flask - Machine Learning System)
 pip install -r requirements.txt
 
-For Node.js (Patients Management System)
-npm install
+   For Node.js (Patients Management System)
+   npm install
 
 4. Start the Flask Server
 python app.py
