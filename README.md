@@ -5,16 +5,22 @@ AlloAI is a comprehensive Allopathic Healthcare Management System that provides 
 ---
 
 ## Features
-Healthcare Prediction System: Provides predictions and suggestions based on user symptoms.
-Patient Management System: Stores, updates, deletes, and retrieves patient information using MongoDB.
-Hybrid Technology Stack: Combines Flask (Python) for Machine Learning and Node.js with MongoDB for data management.
-User Interface: Designed using HTML, Bootstrap, CSS, and JavaScript.
-Easy Navigation: Two main options on the interface:
-Enter Healthcare Management System: Powered by a trained ML model.
-Enter Patients Management System: CRUD operations for patient records.
+1. Healthcare Prediction System: Provides predictions and suggestions based on user symptoms.
+   
+2. Patient Management System: Stores, updates, deletes, and retrieves patient information using MongoDB.
+   
+3. Hybrid Technology Stack: Combines Flask (Python) for Machine Learning and Node.js with MongoDB for data management.
+   
+4. User Interface: Designed using HTML, Bootstrap, CSS, and JavaScript.
+   
+5. Easy Navigation: Two main options on the interface:
+    
+    a. Enter Healthcare Management System: Powered by a trained ML model.
+    b. Enter Patients Management System: CRUD operations for patient records.
 --- 
 
 ## Installation and Usage
+
 1. Clone the Repository
 git clone https://github.com/RutujRaul/AlloAI-Machine-Learning-Driven-Allopathic-Healthcare-Management-System.git
 cd AlloAI-Machine-Learning-Driven-Allopathic-Healthcare-Management-System
@@ -38,6 +44,7 @@ This is the main entry point of your project that connects the Machine Learning 
 --- 
 
 ## Credits
+
 This project is partially based on a YouTube tutorial by Noor Saeed.
 
 YouTube Tutorial Link: https://youtu.be/1xHU20MgvqI?si=A8xmea-vwUmfWllk
