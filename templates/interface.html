@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlloAI - Healthcare Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-900 via-purple-700 to-pink-600 text-white">
+
+    
+    <nav class="bg-white bg-opacity-10 backdrop-blur-md p-4 fixed w-full top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-extrabold tracking-wide">AlloAI</div>
+            <button id="menu-btn" class="lg:hidden block text-white focus:outline-none">
+                ☰
+            </button>
+            <div id="menu" class="hidden lg:flex space-x-6 text-lg">
+                <a href="/" class="hover:text-yellow-300 transition duration-300">Home</a>
+                <a href="/D:/PROJECTS\Healthcare Management System/templates/about.html" class="hover:text-yellow-300 transition duration-300">About</a>
+                <a href="/D:/PROJECTS/Healthcare Management System/templates/contact.html" class="hover:text-yellow-300 transition duration-300">Contact</a>
+            </div>
+            <div class="hidden lg:flex space-x-2">
+                <button onclick="window.location.href='/D:/PROJECTS/Healthcare Management System/templates/login.html'"
+                class="bg-green-500 px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300">Login</button>
+                
+            </div>
+        </div>
+        
+        <div id="mobile-menu" class="hidden lg:hidden flex flex-col text-center mt-2 space-y-3 text-lg">
+            <a href="#" class="block hover:text-yellow-300">Home</a>
+            <a href="#" class="block hover:text-yellow-300">About</a>
+            <a href="#" class="block hover:text-yellow-300">Contact</a>
+            <button class="bg-green-500 px-4 py-2 rounded-lg hover:bg-green-600 mt-2">Login</button>
+            
+        </div>
+    </nav>
+
+    
+    <section class="flex flex-col justify-center items-center h-screen text-center px-4">
+        <h1 class="text-4xl md:text-6xl font-extrabold drop-shadow-lg animate-fadeIn">AlloAI</h1>
+        <p class="text-lg md:text-2xl mt-4 opacity-90">(Machine Learning Driven Allopathic Healthcare Prediction System)</p>
+        
+        <div class="mt-10 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+            
+            <button onclick="window.location.href='http://127.0.0.1:5000/'" 
+                class="bg-yellow-400 text-black px-6 py-3 text-lg rounded-lg shadow-lg hover:bg-yellow-500 transform hover:scale-105 transition duration-300">
+                Enter Healthcare Center
+            </button>
+
+            <button onclick="window.location.href='/D:/PROJECTS/Healthcare Management System/templates/login.html'"
+            class="bg-red-400 px-6 py-3 text-lg rounded-lg shadow-lg hover:bg-red-500 transform hover:scale-105 transition duration-300">
+                Enter Patient Management System
+            </button>
+        </div>
+    </section>
+
+    
+    <footer class="bg-gray-900 bg-opacity-90 py-6 text-center">
+        <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6 text-gray-300 text-lg">
+            <a href="#" class="hover:text-white transition duration-300">Privacy Policy</a>
+            <a href="#" class="hover:text-white transition duration-300">Terms of Service</a>
+            <a href="#" class="hover:text-white transition duration-300">Support</a>
+        </div>
+        <p class="mt-4 text-gray-400">© 2025 AlloAI Made By Rutuj Raul At Mountreach Solutions Pvt. Ltd. All Rights Reserved.</p>
+    </footer>
+
+    
+    <script>
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+
+    
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 1.5s ease-out;
+        }
+    </style>
+
+</body>
+</html>
