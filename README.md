@@ -25,20 +25,23 @@ AlloAI is a comprehensive Allopathic Healthcare Management System that provides 
 git clone https://github.com/RutujRaul/AlloAI-Machine-Learning-Driven-Allopathic-Healthcare-Management-System.git
 cd AlloAI-Machine-Learning-Driven-Allopathic-Healthcare-Management-System
 
-2. Install Dependencies
+2. Setup MongoDB
+   start server in shell: mongod.
+
+3. Install Dependencies
 For Python (Flask - Machine Learning System)
 pip install -r requirements.txt
 
 For Node.js (Patients Management System)
 npm install
 
-3. Start the Flask Server
+4. Start the Flask Server
 python app.py
 
-4. Start the Node.js Server
+5. Start the Node.js Server
 node server.js
 
-5. Open the Interface
+6. Open the Interface
 After starting both servers, open the interface.html file directly in your browser.
 This is the main entry point of your project that connects the Machine Learning Model and Patient Management System.
 --- 
